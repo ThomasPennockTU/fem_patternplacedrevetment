@@ -7,7 +7,7 @@ The model is specifically designed for a top layer consisting of Basalton STS+ e
 The model allows for the simulation of various types of damage in addition to an intact pattern-placed revetment. The supported damage scenarios include deformation, washed-out joint filling, a missing element, and a deformed toe.
 
 ## Usage
-The model is implemented in Python and should be loaded into Abaqus Explicit 2019. The main script file for the model is named 'RevetmentModel.py'. Within this Python file there is a path to an Excel file where you can define the models.
+The script needs to be executed using the Python console within Abaqus Explicit 2019. The main script file for the model is named 'RevetmentModel.py'. Within this Python file there is a path to an Excel file where you can define the models.
 
 Before running the model, you can modify the input parameters by editing the input Excel file. An example of the input Excel file is provided in 'example.xlsx'.
 
